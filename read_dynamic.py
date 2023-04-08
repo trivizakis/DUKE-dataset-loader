@@ -20,7 +20,7 @@ def resample_volume(volume, interpolator = sitk.sitkLinear, new_spacing = [0.39,
                          volume.GetOrigin(), new_spacing, volume.GetDirection(), 0,
                          volume.GetPixelID())
 
-dataset_path = "/manifest-1654812109500/Duke-Breast-Cancer-MRI/"
+dataset_path = "/Duke-Breast-Cancer-MRI/"
 annotation_path = "dataset/"
 bbxls = "Annotation_Boxes.xls"
 clinicalxls = "Clinical_and_Other_Features.xls"
